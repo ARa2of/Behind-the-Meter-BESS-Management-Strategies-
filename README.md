@@ -1,2 +1,5 @@
 # Behind-the-Meter-BESS-Management-Strategies-
-This repository contains three different management strategies for the behind the meter residential batteries. 
+This repository contains a code of three different power management strategies for the domestic residential batteries.
+More details on this code will be announced soon through a published paper. 
+The code has been developed by Ahmed A.Raouf Mohamed - EPIC Research Cluster, School of Electronics, Electrical Engineering and Computer Science at Queen's University in Belfast, UK.  (https://pure.qub.ac.uk/en/persons/ahmed-mohamed)
+This work is part of SPIRE 2 Project (https://www.ulster.ac.uk/spire2/the-project). 

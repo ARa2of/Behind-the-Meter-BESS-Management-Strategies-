@@ -1,6 +1,6 @@
 # Residential Battery Management Tool (RBMT) [Behind the Meter BESS Management Strategies]
 
-![alt text](https://drive.google.com/file/d/1zcLGasnPlP8awCFo93-xL8uiNT-RIXp5/view?usp=sharing)
+![Picture1](https://user-images.githubusercontent.com/69669859/97017890-5ef5e780-1546-11eb-9ec9-2bbfa502331a.jpg)
 
 
 This repository contains a tool of three different power management strategies for the domestic residential batteries - October 2020 .

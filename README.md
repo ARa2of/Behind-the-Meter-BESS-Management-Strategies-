@@ -26,5 +26,7 @@ More details on this paper will be announced soon.
 This code has been developed by [Ahmed A.Raouf Mohamed](https://pure.qub.ac.uk/en/persons/ahmed-mohamed) - EPIC Research Cluster, School of Electronics, Electrical Engineering and Computer Science at Queen's University in Belfast, UK. This work is part of [SPIRE 2 Project](https://www.ulster.ac.uk/spire2/the-project). 
 
 For any inquiry: amohamed06@qub.ac.uk / Ra2ooof@gmail.com 
+[![twitter](https://user-images.githubusercontent.com/69669859/97111195-613a7c00-16d5-11eb-822e-8ec720620760.png)](https://twitter.com/RA2OOOF)
+
 
 Copyright @ 2020 

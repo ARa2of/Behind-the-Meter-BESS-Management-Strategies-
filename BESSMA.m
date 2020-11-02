@@ -48,6 +48,7 @@ BESSP=5; %BESS Power
 RE=0.95*0.95; %= 0.95(BESS) * 0.95(Inverter)
 SOCMIN=SOCMAX-DOD; %Min SoC 
 BESSU=BESS*DOD; %Usable BESS Capacity
+SOCI=SOCMIN; %Initial SOC that the simulations will start with. 
 %% ToU Tariff Data e.g. Economy 7  (https://powerni.co.uk/plan-prices/compare-our-plans/economy-7-unit-rates/)
 HR=17.19; %Day Rate 8am-1am 
 LR=9.59; % Night Rate 1am-8am 

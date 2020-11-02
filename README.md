@@ -29,6 +29,7 @@ For any inquiry: amohamed06@qub.ac.uk / Ra2ooof@gmail.com
 [![twitter2](https://user-images.githubusercontent.com/69669859/97111234-a068cd00-16d5-11eb-9559-ff4b8946c0d8.png)](https://twitter.com/RA2OOOF)
 
 v1.0 First release (10/2020)
+
 v1.1 Added a selectable starting point of the BESS SOC. 
 
 Copyright @ 2020 

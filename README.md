@@ -28,5 +28,10 @@ This code has been developed by [Ahmed A.Raouf Mohamed](https://pure.qub.ac.uk/e
 For any inquiry: amohamed06@qub.ac.uk / Ra2ooof@gmail.com 
 [![twitter2](https://user-images.githubusercontent.com/69669859/97111234-a068cd00-16d5-11eb-9559-ff4b8946c0d8.png)](https://twitter.com/RA2OOOF)
 
+v1.0 First release (10/2020).
+
+v1.1 Added a selectable starting point of the BESS SOC (11/2020).
+
+v1.2  a) Added an option for charging part of the battery capacity overnight to optimize the time of use tariff; b) Adjusted the discharging to start after the end of low tariff period (11/2020).
 
 Copyright @ 2020 

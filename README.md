@@ -32,4 +32,6 @@ v1.0 First release (10/2020).
 
 v1.1 Added a selectable starting point of the BESS SOC (11/2020).
 
+v1.2 1) Added a selectable starting option for the charging overnight to optimize the time of use tariff; 2) Adjusted the discharging to start after the end of low tariff period (11/2020).
+
 Copyright @ 2020 

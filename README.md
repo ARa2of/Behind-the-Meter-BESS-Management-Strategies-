@@ -32,6 +32,6 @@ v1.0 First release (10/2020).
 
 v1.1 Added a selectable starting point of the BESS SOC (11/2020).
 
-v1.2 Two modifications to the first algorithm (CRBA): a) Added an option for charging part of the battery capacity overnight to optimize the time of use tariff; b) Adjusted the discharging to start after the end of low tariff period (11/2020).
+v1.2 Two modifications have been added to the first algorithm (CRBA): a) An option to charge part of the battery capacity overnight to optimize the time of use tariff; b) Adjusted the discharging to start after the end of low tariff period (11/2020).
 
 Copyright @ 2020 

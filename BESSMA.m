@@ -49,10 +49,6 @@ RE=0.95*0.95; %= 0.95(BESS) * 0.95(Inverter)
 SOCMIN=SOCMAX-DOD; %Min SoC 
 BESSU=BESS*DOD; %Usable BESS Capacity
 SOCI=SOCMIN; %Initial SOC that the simulations will start with. 
-PCN=0; %Percentage of the BESS capacity to charge at night with low tariff (The ToU Tariff data in the next part is being used), set it to 0 if you don't want to use this option. 
-PCN=PCN*ones(1,ND);
-% PCN=[0.5, 0.1]; %Use this option of you want to add different values at
-% each day, insert values according to the number of the days for your data
 %% ToU Tariff Data e.g. Economy 7  (https://powerni.co.uk/plan-prices/compare-our-plans/economy-7-unit-rates/)
 HR=17.19; %Day Rate 8am-1am 
 LR=9.59; % Night Rate 1am-8am 
@@ -69,6 +65,10 @@ X=0.0030569; %Reactance from the transformer bus to the household
 %% Program 1 Inputs: Conventional Rule-based Algorithm (CRBA) 
 PTHD=0; % Specify the Upper threshold for BESS Discharge 
 PTHC=-0; % Specify the Lower threshold for BESS Charge  
+PCN=0; %Percentage of the BESS capacity to charge at night with low tariff (The ToU Tariff data is being used), set it to 0 if you don't want to use this option. 
+PCN=PCN*ones(1,ND);
+% PCN=[0.5, 0.1]; %Use this option of you want to add different values at
+% each day, insert values according to the number of the days for your data.
 %% Program 3 Inputs: Proposed Rule-based Algorithm (PRBA)
 EVS=3.8; % EV charger in kW
 AVGD=10.3; %average daily consumption in kWh

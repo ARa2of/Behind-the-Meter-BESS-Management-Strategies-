@@ -27,7 +27,7 @@ warning('off')
 format long g
 global  RE T D EV PV EX PRP BESSU tau gf TD BESSRR k BESSDD XX BESSP SOCG BESS SOCMIN SOCMAX
 %% Main Inputs 
-SaveR=0; %if 1=save results in excel files, other values=don't save : (saving results will reduce excution time) 
+SaveR=1; %if 1=save results in excel files, other values=don't save : (saving results will reduce excution time) 
 Prog=1;  %1 for the conventional rule-based method (CRBA), 2 for the proposed day-ahead scheduling (PDSA), 3 for the proposed rule-based algorithm (PRBA) 
 DataRes=10; %Data resolution 10 for 10 minutes reso, 30 for 30 minutes reso, 60 for 60 minutes(1 hour) reso and so on...
 %% Call Data

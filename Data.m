@@ -1,4 +1,6 @@
 %% Copy the data from Excel or CSV file in the following format
+%Or read from CSV file directly as
+%Profile=readmatrix('Data.csv');
 % | Demand(kW) | PV (kW) | EV(kW) | 
 Profile=[
 0.239725856	0	0

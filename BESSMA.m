@@ -27,7 +27,7 @@ warning('off')
 format long g
 global  RE T D EV PV EX PRP BESSU tau gf TD BESSRR k BESSDD XX BESSP SOCG BESS SOCMIN SOCMAX
 %% Main Inputs 
-SaveR=1; %if 1=save results in excel files, other values=don't save : (saving results will reduce excution time) 
+SaveR=0; %if 1=save results in excel files, other values=don't save : (saving results will reduce excution time) 
 Prog=1;  %1 for the conventional rule-based method (CRBA), 2 for the proposed day-ahead scheduling (PDSA), 3 for the proposed rule-based algorithm (PRBA) 
 DataRes=10; %Data resolution 10 for 10 minutes reso, 30 for 30 minutes reso, 60 for 60 minutes(1 hour) reso and so on...
 %% Call Data
@@ -50,6 +50,7 @@ SOCMIN=SOCMAX-DOD; %Min SoC
 BESSU=BESS*DOD; %Usable BESS Capacity
 SOCI=SOCMIN; %Initial SOC that the simulations will start with. 
 %% ToU Tariff Data e.g. Economy 7  (https://powerni.co.uk/plan-prices/compare-our-plans/economy-7-unit-rates/)
+SC=20; % Standing charge £/day
 HR=17.19; %Day Rate 8am-1am 
 LR=9.59; % Night Rate 1am-8am 
 TLS=1;  %Night rate start time

@@ -1,6 +1,6 @@
 % ======================================================== % 
 % -------Residential Battery Management Tool (RBMT)------- %
-% Version: 1.0 (10/2020)-----------------------------------%
+% Version: 1.40 (1/2021)-----------------------------------%
 % ======================================================== % 
 % This code was developed by Ahmed A.Raouf Mohamed: ------ %
 % ------ Ra2ooof@gmail.com / amohamed06@qub.ac.uk -------- %
@@ -15,9 +15,9 @@
 % ======================================================== % 
 % ---  This work is part of INTERREG VA SPIRE2 Project --- %
 % ======================================================== % 
-% Please check ToolGuide.pdf for details on how to run the %
+% Please check RBMTGuide.pdf for details on how to run the %
 % code. -------------------------------------------------- %
-% The measurements should be entered in data.m ----------- %
+% The measurements should be entered in Inputs.csv ------- %
 % -------------------------------------------------------- %
 % ======================================================== %    
 
@@ -31,7 +31,7 @@ SaveR=0; %if 1=save results in excel files, other values=don't save : (saving re
 Prog=1;  %1 for the conventional rule-based method (CRBA), 2 for the proposed day-ahead scheduling (PDSA), 3 for the proposed rule-based algorithm (PRBA) 
 DataRes=10; %Data resolution 10 for 10 minutes reso, 30 for 30 minutes reso, 60 for 60 minutes(1 hour) reso and so on...
 %% Call Data
-Data % Insert the simulation data as explained in the Data.m file
+Profile=readmatrix('Inputs.csv'); % Insert the simulation data as explained in the Inputs.csv file
 T=length(Profile(:,1));
 ND=round((DataRes/60)*(T/24)); %Number of days
 TD=T/ND; %Length of one day
@@ -50,7 +50,7 @@ SOCMIN=SOCMAX-DOD; %Min SoC
 BESSU=BESS*DOD; %Usable BESS Capacity
 SOCI=SOCMIN; %Initial SOC that the simulations will start with. 
 %% ToU Tariff Data e.g. Economy 7  (https://powerni.co.uk/plan-prices/compare-our-plans/economy-7-unit-rates/)
-SC=20; % Standing charge £/day
+SC=20; % Standing tariff £/day
 HR=17.19; %Day Rate 8am-1am 
 LR=9.59; % Night Rate 1am-8am 
 TLS=1;  %Night rate start time

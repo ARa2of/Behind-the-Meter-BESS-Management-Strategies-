@@ -36,4 +36,6 @@ v1.2 Two modifications have been added to the first algorithm (CRBA): a) An opti
 
 v1.3 Standing charge has been added as per UK tariff structures (12/2020).
 
+v1.4 Input data to be entered in a csv file (01/2021).
+
 Copyright @ 2020 

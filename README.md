@@ -17,7 +17,7 @@ The outputs of the RBMT are:
 7.	Household’s losses. 
 
 
-Please check the ToolGuide.pdf file for more details and guidance on how to use the code. 
+Please check the RBMTGuide.pdf file for more details and guidance on how to use the code. 
 
 This tool was validated and detailed in a submitted paper titled ‘Domestic Battery Power Management Strategies to Maximize the Profitability and Support the Network’, authored by Ahmed A.Raouf Mohamed, Robert J. Best, Xueqin Liu, and  D. John Morrow. School of Electronics, Electrical Engineering and Computer Science, Queen’s University Belfast. 
 More details on this paper will be announced soon. 

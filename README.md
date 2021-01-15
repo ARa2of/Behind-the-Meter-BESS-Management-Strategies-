@@ -8,7 +8,7 @@ This repository contains a tool of three different power management strategies f
 This tool can be used to generate the power dispatch of residential batteries (with any specifications) to minimize the household's electricity bill for any time series data (single day to multiple years) with any temporal resolution. 
 
 The outputs of the RBMT are:
-1.	The net household demand. 
+1.	The net household demand with and without the battery.
 2.	Electricity bill with and without the battery.
 3.	Battery power dispatch.
 4.	Battery state of charge.

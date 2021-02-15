@@ -3,18 +3,22 @@
 ![Picture1](https://user-images.githubusercontent.com/69669859/97017890-5ef5e780-1546-11eb-9ec9-2bbfa502331a.jpg)
 
 
-This repository contains a tool of three different power management strategies for the domestic residential batteries - October 2020 .
+This repository contains a tool of three different power management strategies for the domestic residential batteries - Created October 2020 .
 
 This tool can be used to generate the power dispatch of residential batteries (with any specifications) to minimize the household's electricity bill for any time series data (single day to multiple years) with any temporal resolution. 
 
 The outputs of the RBMT are:
 1.	The net household demand with and without the battery.
-2.	Electricity bill with and without the battery.
+2.	Electricity bill with and without the battery or the PV.
 3.	Battery power dispatch.
 4.	Battery state of charge.
 5.	Battery degradation. 
 6.	Household’s voltage.
 7.	Household’s losses. 
+8.  PV self-consumption  
+9.  Self-sufficiency 
+10. Exported energy 
+11. Curtailed energy  
 
 
 Please check the RBMTGuide.pdf file for more details and guidance on how to use the code. 
@@ -38,5 +42,11 @@ v1.2 Two modifications have been added to the first algorithm (CRBA): a) An opti
 v1.3 Standing charge has been added as per UK tariff structures (12/2020).
 
 v1.4 Input data to be entered in a csv file (01/2021).
+
+v1.5 Important version with the following features (02/2021): 
+- The export power limit has been added to be entered as a utility input. 
+- The PV self-consumption and the household self-sufficiency with and without the battery are calculated and printed.
+- The exported energy with and without the battery is calculated and printed.
+- The curtailed energy with and without the battery is calculated and printed.
 
 Copyright @ 2020 

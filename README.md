@@ -19,8 +19,9 @@ The outputs of the RBMT are:
 
 Please check the RBMTGuide.pdf file for more details and guidance on how to use the code. 
 
-This tool was validated and detailed in a submitted paper titled ‘Domestic Battery Power Management Strategies to Maximize the Profitability and Support the Network’, authored by Ahmed A.Raouf Mohamed, Robert J. Best, Xueqin Liu, and  D. John Morrow. School of Electronics, Electrical Engineering and Computer Science, Queen’s University Belfast. 
-More details on this paper will be announced soon. 
+This tool was validated and detailed in the following accepted paper: 
+
+[1]. A. A. R. Mohamed, R. J. Best, X. Liu, and D. J. Morrow, ‘Domestic Battery Power Management Strategies to Maximize the Profitability and Support the Network’, IEEE PES General Meeting, 2021, pp.1-5
 
 
 This code has been developed by [Ahmed A.Raouf Mohamed](https://pure.qub.ac.uk/en/persons/ahmed-mohamed) - EPIC Research Cluster, School of Electronics, Electrical Engineering and Computer Science at Queen's University in Belfast, UK. This work is part of [SPIRE 2 Project](https://www.ulster.ac.uk/spire2/the-project). 

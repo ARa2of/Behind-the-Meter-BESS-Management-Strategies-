@@ -69,6 +69,7 @@ X=0.0030569; %Reactance from the transformer bus to the household
 PTHD=0; % Specify the Upper threshold for BESS Discharge 
 PTHC=-0; % Specify the Lower threshold for BESS Charge  
 PCN=0; %Percentage of the BESS capacity to charge at night with low tariff (The ToU Tariff data is being used), set it to 0 if you don't want to use this option. 
+ETOC=0; % End overnight charging time (in hours); Default=0 if you don't want to charge the battery overnight
 DIA=1; %= 1: if you want the algorithm to start discharging after the end of low tariff period, =0: to discharge whenever the demand exceeds the generation at any time of the day
 PCN=PCN*ones(1,ND);
 % PCN=[0.5, 0.1]; %Use this option of you want to add different values at

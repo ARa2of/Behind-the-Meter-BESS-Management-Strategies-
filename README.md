@@ -2,6 +2,7 @@
 
 ![Picture1](https://user-images.githubusercontent.com/69669859/97017890-5ef5e780-1546-11eb-9ec9-2bbfa502331a.jpg)
 
+[![DOI](https://zenodo.org/badge/294726024.svg)](https://zenodo.org/badge/latestdoi/294726024)
 
 This repository contains a tool of three different power management strategies for the domestic residential batteries - Created October 2020 .
 

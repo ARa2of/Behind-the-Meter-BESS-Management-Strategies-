@@ -30,7 +30,7 @@ global  RE T D EV PV EX PRP BESSU tau gf TD BESSRR k BESSDD XX BESSP SOCG BESS S
 %% Main Inputs 
 SaveR=0; %if 1=save results in excel files, other values=don't save : (saving results will reduce excution time) 
 Prog=1;  %1 for the conventional rule-based method (CRBA), 2 for the proposed day-ahead scheduling (PDSA), 3 for the proposed rule-based algorithm (PRBA) 
-DataRes=1; %Data resolution 10 for 10 minutes reso, 30 for 30 minutes reso, 60 for 60 minutes(1 hour) reso and so on...
+DataRes=10; %Data resolution 10 for 10 minutes reso, 30 for 30 minutes reso, 60 for 60 minutes(1 hour) reso and so on...
 %% Call Data
 Profile=readmatrix('Inputs.csv'); % Insert the simulation data as explained in the Inputs.csv file
 T=length(Profile(:,1));
@@ -68,7 +68,7 @@ X=0.0030569; %Reactance from the transformer bus to the household
 %% Program 1 Inputs: Conventional Rule-based Algorithm (CRBA) 
 PTHD=0; % Specify the Upper threshold for BESS Discharge 
 PTHC=-0; % Specify the Lower threshold for BESS Charge  
-PCN=1; %Percentage of the BESS capacity to charge at night with low tariff (The ToU Tariff data is being used), set it to 0 if you don't want to use this option. 
+PCN=0; %Percentage of the BESS capacity to charge at night with low tariff (The ToU Tariff data is being used), set it to 0 if you don't want to use this option. 
 ETOC=5; % End overnight charging time (in hours); Default=0 if you don't want to charge the battery overnight
 DIA=1; %= 1: if you want the algorithm to start discharging after the end of low tariff period, =0: to discharge whenever the demand exceeds the generation at any time of the day
 PCN=PCN*ones(1,ND);

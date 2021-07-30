@@ -1,13 +1,13 @@
 % ======================================================== % 
 % -------Residential Battery Management Tool (RBMT)------- %
-% Version: 1.40 (1/2021)-----------------------------------%
+% Version: 1.60 (7/2021)-----------------------------------%
 % ======================================================== % 
 % This code was developed by Ahmed A.Raouf Mohamed: ------ %
-% ------ Ra2ooof@gmail.com / amohamed06@qub.ac.uk -------- %
+% ------ aaraoufm@gmail.com / amohamed06@qub.ac.uk ------- %
 % https://pure.qub.ac.uk/en/persons/ahmed-mohamed -------- %
 % Copyright @2020 ---------------------------------------- %
 % ======================================================== % 
-% Details will be available in the following publication---%
+% Details are be available in the following publication---%
 %  A. A. R. Mohamed, R. J. Best, X. Liu, and D. J. Morrow, %
 %‘Domestic Battery Power Management Strategies to Maximize %
 % the Profitability and Support the Network’, IEEE PES GM  %
@@ -68,7 +68,7 @@ X=0.0030569; %Reactance from the transformer bus to the household
 %% Program 1 Inputs: Conventional Rule-based Algorithm (CRBA) 
 PTHD=0; % Specify the Upper threshold for BESS Discharge 
 PTHC=-0; % Specify the Lower threshold for BESS Charge  
-PCN=0; %Percentage of the BESS capacity to charge at night with low tariff (The ToU Tariff data is being used), set it to 0 if you don't want to use this option. 
+PCN=0.1; %Percentage of the BESS capacity to charge at night with low tariff (The ToU Tariff data is being used), set it to 0 if you don't want to use this option. 
 ETOC=5; % End overnight charging time (in hours); Default=0 if you don't want to charge the battery overnight
 DIA=1; %= 1: if you want the algorithm to start discharging after the end of low tariff period, =0: to discharge whenever the demand exceeds the generation at any time of the day
 PCN=PCN*ones(1,ND);

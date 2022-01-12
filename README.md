@@ -24,7 +24,7 @@ The outputs of the RBMT are:
 
 Please check the RBMTGuide.pdf file for more details and guidance on how to use the code. 
 
-This tool was validated and detailed in the following accepted paper, please acknowledge any contributions of the RBMT by citing: 
+This tool was validated and detailed in the following published paper, please acknowledge any contributions of the RBMT by citing: 
 
 [1]. A. A. R. Mohamed, R. J. Best, X. Liu, and D. J. Morrow, ‘[Domestic Battery Power Management Strategies to Maximize the Profitability and Support the Network’, IEEE PES General Meeting](https://ieeexplore.ieee.org/document/9638038), pp.1-5, 2021
 

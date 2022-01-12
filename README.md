@@ -4,6 +4,8 @@
 
 [![DOI](https://zenodo.org/badge/294726024.svg)](https://zenodo.org/badge/latestdoi/294726024)
 
+[![View Residential Battery Management Tool (RBMT)  on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/105050-residential-battery-management-tool-rbmt)
+
 This repository contains a tool of three different power management strategies for the domestic residential batteries - Created October 2020 .
 
 This tool can be used to generate the power dispatch of residential batteries (with any specifications) to minimize the household's electricity bill for any time series data (single day to multiple years) with any temporal resolution. 

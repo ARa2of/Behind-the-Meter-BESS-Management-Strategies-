@@ -26,7 +26,7 @@ Please check the RBMTGuide.pdf file for more details and guidance on how to use 
 
 This tool was validated and detailed in the following accepted paper, please acknowledge any contributions of the RBMT by citing: 
 
-[1]. A. A. R. Mohamed, R. J. Best, X. Liu, and D. J. Morrow, ‘Domestic Battery Power Management Strategies to Maximize the Profitability and Support the Network’, IEEE PES General Meeting, pp.1-5, 2021
+[1]. A. A. R. Mohamed, R. J. Best, X. Liu, and D. J. Morrow, ‘[Domestic Battery Power Management Strategies to Maximize the Profitability and Support the Network’, IEEE PES General Meeting](https://ieeexplore.ieee.org/document/9638038), pp.1-5, 2021
 
 
 This code has been developed by [Ahmed A.Raouf Mohamed](https://pure.qub.ac.uk/en/persons/ahmed-mohamed) - EPIC Research Cluster, School of Electronics, Electrical Engineering and Computer Science at Queen's University in Belfast, UK. This work is part of [SPIRE 2 Project](https://www.ulster.ac.uk/spire2/the-project). 

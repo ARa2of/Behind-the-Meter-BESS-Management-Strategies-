@@ -1,6 +1,6 @@
 % ======================================================== % 
 % -------Residential Battery Management Tool (RBMT)------- %
-% Version: 1.60 (7/2021)-----------------------------------%
+% Version: 1.50 (7/2021)-----------------------------------%
 % ======================================================== % 
 % This code was developed by Ahmed A.Raouf Mohamed: ------ %
 % ------ aaraoufm@gmail.com / amohamed06@qub.ac.uk ------- %
